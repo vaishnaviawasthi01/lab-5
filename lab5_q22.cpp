@@ -5,14 +5,14 @@ using namespace std;
 //including function
 int main(){
 //declaring variables
-int n, sum =0;
+int n;
 //stating conditions
 cout <<"enter a positive integer:";
 cin >> n;
 for (int a = 1; a <= n; ++a)
-{sum += a;
+{
+cout <<" "<< n;
 }
-cout <<"sum = "<< sum;
 //ending
 return 0;
 }
